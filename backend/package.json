@@ -1,0 +1,19 @@
+{
+  "name": "nexusbank-backend",
+  "version": "1.0.0",
+  "description": "Banking Graph Database Backend powered by CognoDB and openCypher",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "neo4j-driver": "^5.28.1"
+  }
+}
